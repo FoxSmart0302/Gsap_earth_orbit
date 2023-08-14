@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./plugins/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/global.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/dragging.css">
+    <script src="./plugins/bootstrap/bootstrap.bundle.min.js">
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid text-success">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/Xiphos Logo.png" alt="Logo" class="rounded-pill">
+            </a>
+
+            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#gfgnavbar" aria-controls="gfgnavbar" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="mx-2 close">X</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            </button>
+            <div class="collapse navbar-collapse ps-3" id="gfgnavbar">
+                <div class="btn-group btn-group-sm">
+                    <button type="button" class="btn btn-primary">EN</button>
+                    <button type="button" class="btn btn-secondary">FR</button>
+                </div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">
+                                Solutions
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Products</a></li>
+                                <li><a class="dropdown-item" href="#">Custom Solutions</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">
+                                Applications
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Low Earth orbit</a></li>
+                                <li><a class="dropdown-item" href="#">Space exploration</a></li>
+                                <li><a class="dropdown-item" href="#">Launchers</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">
+                                People
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">About us</a></li>
+                                <li><a class="dropdown-item" href="#">Recruiting</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">
+                                Resources
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Blog</a></li>
+                                <li><a class="dropdown-item" href="#">In-depth Resources</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-primary">Get In Touch</button>
+                    </li>
+                </ul>
+                <div class="d-flex flex-column collapse-buttons">
+                    <div class="btn-group btn-group-sm">
+                        <button type="button" class="btn btn-primary">EN</button>
+                        <button type="button" class="btn btn-secondary">FR</button>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-collapse-touch">Get In Touch</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-80">
+        <div class="d-flex flex-column gap-25 title-section">
+            <p class="title title-fade-in">Low-SWaP SPACE COMPUTING SOLUTIONS</p>
+            <p class="subtitle subtitle-fade-in" >Unmatched Size, Performance & Cost</p>
+        </div>
+        <div class="d-flex flex-column chip-section">
+            <img class="chip-image title-image" src="./assets/chip.png" alt="chip image" />
+            <div class="earth-section">
+                <div class="d-flex flex-column chip-introduction">
+                    <p class="chip-introduction-text">
+                        With Xiphos, the future is here – now. We specialize in unique computing solutions for space
+                        applications. Xiphos is more than just a provider. We're your steadfast ally in the New Space
+                        Era. From concept to countdown to post-launch, we’re here to propel your mission into new
+                        horizons.
+                    </p>
+                </div>
+                <div class="chip-horizontal-slider">
+                    <!-- <div class="earth-background"></div> -->
+                    <div class="earth-slider-pos-container top">
+                        <div class="guide-line"></div>
+                        <div class="guide-box"></div>
+                    </div>
+                    <div class="d-flex w-100 slider-container">
+                        <div class="slider-item topslideritem">
+                            <div class="d-flex flex-column col-md-6 col-sm-12 gap-30 justify-content-center">
+                                <p class="slider-content topsliderheader">
+                                    Performance and Flexibility
+                                </p>
+                                <p class="slider-sub-content">
+                                    Experience exceptional horsepower with our hybrid MPSoC & FPGA capability and board
+                                    architecture, versatile across diverse space applications.
+                                </p>
+                            </div>
+                            <div class="d-flex flex-column col-md-6 col-sm-12 gap-30 align-items-center">
+                                <img class="chip-image" src="./assets/chip.png" alt="chip image" />
+                            </div>
+                        </div>
+                        <div class="slider-item topslideritem">
+                            <div class="d-flex flex-column col-md-6 col-sm-12 gap-30 justify-content-center">
+                                <p class="slider-content topsliderheader">
+                                    Durability for New Space
+                                </p>
+                                <p class="slider-sub-content">
+                                    With a focus on Low-Earth Orbit and short lunar missions, our CPUs bring an
+                                    innovative,
+                                    SWaP-C optimized approach, designed to perform.
+                                </p>
+                            </div>
+                            <div class="d-flex flex-column col-md-6 col-sm-12 gap-30 align-items-center">
+                                <img class="chip-image" src="./assets/chip1.png" alt="chip image" />
+                            </div>
+                        </div>
+                        <div class="slider-item topslideritem">
+                            <div class="d-flex flex-column col-md-6 col-sm-12 gap-30 justify-content-center">
+                                <p class="slider-content topsliderheader">
+                                    It’s small. That’s huge
+                                </p>
+                                <p class="slider-sub-content">
+                                    We believe in delivering maximum performance and flexibility in compact,
+                                    power-efficient
+                                    designs, minimizing size and weight.
+                                </p>
+                            </div>
+                            <div class="d-flex flex-column col-md-6 col-sm-12 gap-30 align-items-center">
+                                <img class="chip-image" src="./assets/chip2.png" alt="chip image" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-25 earth-slider-pos-container down">
+                        <div class="guide-line"></div>
+                        <div class="guide-box"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="padding-top: 35px;">
+            <div class="row whatdo-section mx-auto" style="opacity: 0;">
+                <div class="whatdo-left">
+                    <div class="whatcontent">
+                        <p class="slider-content" style="color: black;">
+                            WHAT WE DO -
+                        </p>
+                        <p class="slider-content" style="color: black;">
+                            IN 20 SECONDS
+                        </p>
+                    </div>
+                </div>
+                <div class="whatdo-right">
+                    <div class="whatdodivi">
+                    </div>
+                    <div class="mx-6" style="font-size: 22px;">
+                        <p>
+                            We develop cutting-edge computing solutions tailored for extreme space environments.
+                            Utilizing <b>automotive & industrial-grade components in a fault-tolerant architecture</b>,
+                            we
+                            provide robust performance costing a fraction of traditional space solutions.
+                        </p>
+                        <p>
+                            By prioritizing compactness, energy efficiency, flexibility, and high performance, Xiphos
+                            offers effective alternatives to traditional flight processors for spacecraft, unmanned
+                            vehicles, robotics, and many other platforms.
+                        </p>
+                        <p>
+                            Explore our advanced <b>FPGA-based multiprocessor,</b> System-on-Chip (SoC) processor
+                            technology,
+                            <b>subsystems,</b> and more.
+                        </p>
+                    </div>
+                    <div class="whatdodivitwo"></div>
+                    <div class="whatdodivithree"></div>
+                </div>
+            </div>
+            <div class="application-section" style="opacity: 0;">
+                <div style="margin: 50px 0px;">
+                    <p class="title">APPLICATIONS</p>
+                </div>
+                <div class="row" style="padding: 0px 150px;">
+                    <div class="col-md-6 col-sm-12 earth-orbit">
+                        <p class="subtitle earth-orbit-title" style="font-size: 48px;">LOW-EARTH ORBIT</p>
+                        <div class="mx-auto" style="width: 420px;">
+                            <p class="earth-orbit-description1">
+                                Xiphos Q-Card processors are at the heart of many Low-Earth Orbit missions, proving our
+                                significant contribution to advancing space mission technology.
+                            </p>
+                        </div>
+                        <img src="./assets//satellite.png" width="506px" class="earth-orbit-image" />
+                    </div>
+                    <div class="col-md-6 col-sm-12 searchexp">
+                        <p class="subtitle search-exploration" style="font-size: 48px;">SPACE EXPLORATION</p>
+                        <div class="launchdiv"></div>
+                        <p class="subtitle launches" style="font-size: 48px;">LAUNCHERS</p>
+                    </div>
+                </div>
+                <div style="margin: 50px 0px;" class="d-flex">
+                    <!-- <div class="btn-anim mx-auto" onmousemove="moveDot(event)" onmouseleave="resetDot()"> -->
+                    <div class="btn-anim width-fixed mx-auto">
+                        Explore Applications
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row xiphos-section" style="margin-top: 100px;">
+                <div class="col-md-6 col-sm-12 xiphos-left-section">
+                    <p class="lefttitle">XIPHOS</p>
+                    <p class="lefttitle">PRODUCTS</p>
+                    <div class="mx-auto earth-orbit-subtitle">
+                        <p class="earth-orbit-description2" style="margin-top: 50px;">
+                            From the powerful Q7 – maintaining efficiency while delivering solid CPU performance –
+                            to
+                            the groundbreaking Q8, setting new records in performance, our miniature processing
+                            boards
+                            redefine the limits of what’s possible. 
+                        </p>
+                    </div>
+                    <div class="d-flex" style="width: 100%; margin-top: 30px;">
+                        <div class="btn-anim leftbtn width-fixed mx-auto">
+                            SEE ALL PRODUCTS
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-12 xiphos-right-section">
+                    <div class="row productrow">
+                        <div class="col">
+                            <img src="./assets/chip.png" width="170px" />
+                        </div>
+                        <div class="col">
+                            <p class="title my-auto" style="line-height: inherit;">Q8</p>
+                        </div>
+                    </div>
+                    <div class="row productrow2">
+                        <div class="col">
+                            <p>Upholding the small form, minimal weight, and conservative power usage of its
+                                predecessors while boasting solid multiprocessor CPU performance, our Q7 is a
+                                flexible
+                                FPGA matrix that will get the job done.</p>
+                        </div>
+                        <div class="col">
+                            <p class="title">Q8</p>
+                            <p class="title">SDR</p>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top: 100px;" class="xiphos-down-section">
+                    <p class="subtitle">ON A MISSION WITH</p>
+                    <div class="d-flex" style="width: 100%;">
+                        <img src="./assets/mission.png" style="margin-top: 10px;" class="mx-auto" />
+                    </div>
+                </div>
+            </div>
+            <div class="pc_mobileheight"></div>
+        </div>
+
+        <div class="row-fluid-wrapper row-depth-1 row-number-26 dnd_area-row-6-padding dnd-section dnd_area-row-6-max-width-section-centering">
+            <div class="">
+                <!-- first effect start -->
+                <div class="first-section">
+                    <div class="row-fluid-wrapper row-depth-1 row-number-27 dnd-row" style="margin-bottom: 300px">
+                        <div class="">
+                            <div class="widget-span widget-type-custom_widget dnd-module"
+                                data-widget-type="custom_widget" data-x="0" data-w="12">
+                                <div id="" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
+                                    data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                                    <div id="widget_1689026593198" class="text-block visible">
+                                        <div style="font-family: jura; margin-right: 30px;">
+                                            <h2 class="whotext">WHO WE ARE?
+                                                <br>INNOVATORS, ACHIEVERS,<br>AND REVOLUTIONARIES
+                                            </h2>
+                                            <div class="top-bottom"></div>
+                                            <p class="whoimage" style="line-height: 1; text-align: right;">
+                                                <img class="whoimgcontent" src="./assets/image/circuit.png" alt="hero-image-compressed" /></p>
+                                            <p style="line-height: 1; text-align: right;">&nbsp;</p>
+                                            <img src="./assets/Vector (4).svg" class="star1" />
+                                            <!-- <img src="./assets/Vector (4).svg" class="star2" />
+                                            <img src="./assets/Vector (4).svg" class="star3" /> -->
+                                            <div style="position: absolute; display: inline-flex;">
+                                                <div>
+                                                    <div class="top-line"></div>
+                                                    <div class="top-left"></div>
+
+                                                    <div class="top-right"></div>
+                                                    <div class="top-line1"></div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- first effect   -->
+
+                <!-- second effect start -->
+                <div class="second-section">
+                    <div class="secondsection">
+                        <div class="image-container col-md-6 d-flex">
+                            <div class="row d-flex">
+                                <img id="tv" class="image" src="./assets/image/img1.jpg" alt="Image 1">
+                                <img id="tv" class="image" src="./assets/image/img2.jpg" alt="Image 2">
+                            </div>
+                            <div class="row d-flex">
+                                <img id="tv" class="image" src="./assets/image/img3.jpg" alt="Image 3">
+                                <img id="tv" class="image" src="./assets/image/img4.jpg" alt="Image 4">
+                            </div>
+                        </div>
+                        <div class="second-sectiontext" id="textContainer">
+                            <div class="mt-5">
+                                <div class="mt-5">
+                                    <div style="line-height: 0.9;">
+                                        <p style="font-size: 75px; color: black; font-family: jura;">GET TO</p>
+                                        <p style="font-size: 75px; color: black; font-family: jura;">KNOW XIPHOS</p>
+                                    </div>
+                                    <p style="font-size: 22px; color: black">Comprised of tech-obsessed mavens, Team
+                                        Xiphos engineers
+                                        space processors that rewrite the rules of efficiency and
+                                        cost-effectiveness. In
+                                        the most demanding environments, our game-changing solutions shine,
+                                        delivering
+                                        an unrivaled performance that has our customers come back for more.</p>
+                                </div>
+                            </div>
+                            <!-- <button class="mybtn mt-5" id="myButton">MEET US</button> -->
+                            <div class="btn-anim mx-auto meetbtn">
+                                MEET US
+                                <div class="dot"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- second effect end -->
+
+                <!-- third effect start -->
+                <div id="textContainer2" class="third-section">
+                    <div class="row-fluid-wrapper row-depth-1 row-number-35 dnd_area-row-8-max-width-section-centering dnd-section dnd_area-row-8-padding"
+                        style="margin-top: 300px; margin-bottom: 200px;">
+                        <div class="row-fluid ">
+                            <div class="span12 widget-span widget-type-cell cell_16890272402062-padding dnd-column"
+                                data-widget-type="cell" data-x="0" data-w="12">
+
+                                <div class="row-fluid-wrapper row-depth-1 row-number-36 dnd-row third-text">
+                                    <div class="row-fluid ">
+                                        <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                            data-widget-type="custom_widget" data-x="0" data-w="12">
+                                            <div id="hs_cos_wrapper_widget_1689085677018"
+                                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
+                                                data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                                                <span id="hs_cos_wrapper_widget_1689085677018_"
+                                                    class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
+                                                    data-hs-cos-general-type="widget" data-hs-cos-type="rich_text">
+                                                    <p class="advantext">ADVANCING
+                                                        SPACE
+                                                        TECHNOLOGY WITH EPIQ
+                                                        SOLUTIONS</h2>
+                                                    </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="third-left row-fluid-wrapper row-depth-1 row-number-37 cell_16890272402062-row-1-vertical-alignment dnd-row">
+                                    <div class="row-fluid ">
+                                        <div class="widget-span widget-type-cell cell_1689027370319-vertical-alignment cell_1689027370319-padding dnd-column"
+                                            data-widget-type="cell" data-x="0" data-w="8">
+
+                                            <div class="row-fluid-wrapper row-depth-1 row-number-38 dnd-row"
+                                                style="margin-top: 3rem; margin-left: 6rem;">
+                                                <div class="row-fluid ">
+                                                    <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                                        data-widget-type="custom_widget" data-x="0" data-w="12">
+                                                        <div id="hs_cos_wrapper_widget_1689027240008"
+                                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
+                                                            data-hs-cos-general-type="widget"
+                                                            data-hs-cos-type="module">
+                                                            <div id="widget_1689027240008" class="text-block">
+                                                                <div class="text-block__inner xiphosimgparent"
+                                                                    style="font-family: jura;">
+                                                                    <h2 style="line-height: 1; font-size: 60px;">
+                                                                        XIPHOS<br>SYSTEMS</h2>
+                                                                    <p class="xiphosimg"><img
+                                                                            src="./assets/SatelliteSVG.svg"
+                                                                            alt="Satellite - Icon" loading="lazy">
+                                                                    </p>
+                                                                    <p>&nbsp;</p>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="widget-span widget-type-cell cell_1689027370321-vertical-alignment dnd-column"
+                                            data-widget-type="cell" data-x="8" data-w="4">
+
+                                            <div class="row-fluid-wrapper row-depth-1 row-number-39 dnd-row">
+                                                <div class="row-fluid ">
+                                                    <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                                        data-widget-type="custom_widget" data-x="0" data-w="12">
+                                                        <div id="hs_cos_wrapper_widget_1689027370112"
+                                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-space"
+                                                            data-hs-cos-general-type="widget"
+                                                            data-hs-cos-type="module">
+                                                            <span class="hs-horizontal-spacer"></span>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="third-right row-fluid-wrapper row-depth-1 row-number-40 cell_16890272402062-row-2-margin cell_16890272402062-row-2-vertical-alignment dnd-row">
+                                    <div class="row-fluid ">
+                                        <div class="span3 widget-span widget-type-cell cell_1689027382087-vertical-alignment dnd-column"
+                                            style="height: 350px;" data-widget-type="cell" data-x="0" data-w="3">
+
+                                            <div class="row-fluid-wrapper row-depth-1 row-number-41 dnd-row">
+                                                <div class="row-fluid ">
+                                                    <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                                        data-widget-type="custom_widget" data-x="0" data-w="12">
+                                                        <div id="hs_cos_wrapper_widget_1689027381887"
+                                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-space"
+                                                            data-hs-cos-general-type="widget"
+                                                            data-hs-cos-type="module">
+                                                            <span class="hs-horizontal-spacer"></span>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="span5 widget-span widget-type-cell cell-padding cell-background-color cell-vertical-alignment dnd-column"
+                                            style="z-index: 100;" data-widget-type="cell" data-x="3" data-w="5">
+
+                                            <div class="row-fluid-wrapper row-depth-1 row-number-42 dnd-row">
+                                                <div class="row-fluid ">
+                                                    <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                                        data-widget-type="custom_widget" data-x="0" data-w="12">
+                                                        <div id="hs_cos_wrapper_module"
+                                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module mt-5 mx-lg-5"
+                                                            data-hs-cos-general-type="widget"
+                                                            data-hs-cos-type="module">
+                                                            <div id="module" class="text-block"
+                                                                style="font-family: jura;">
+                                                                <div class="text-block__inner epiqparent">
+                                                                    <h2 style="line-height: 1; font-size: 48px;">
+                                                                        <span
+                                                                            style="color: #ffffff;font-size: 60px;">EPIQ<br></span><span
+                                                                            style="color: #ffffff;font-size: 60px;">SOLUTIONS</span>
+                                                                    </h2>
+                                                                    <p style="line-height: 1; font-size: 48px;">
+                                                                        <span style="color: #ffffff;">
+                                                                            <img class="epiqimage" src="https://resources.epiqsolutions.com/hubfs/Icon.svg" alt="Icon" loading="lazy">
+                                                                        </span>
+                                                                    </p>
+                                                                    <p style="line-height: 1; font-size: 48px;">
+                                                                        &nbsp;
+                                                                    </p>
+                                                                    <p style="line-height: 1; font-size: 48px;">
+                                                                        &nbsp;
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="span4 widget-span widget-type-cell cell_2-margin cell_2-background-color cell_2-padding cell_2-vertical-alignment"
+                                            data-widget-type="cell" data-x="8" data-w="4">
+
+                                            <div class="row-fluid-wrapper row-depth-1 row-number-43 dnd-row mt-5"
+                                                style="font-size: 20px;padding-right: 25px;">
+                                                <div class="row-fluid ">
+                                                    <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                                        data-widget-type="custom_widget" data-x="0" data-w="12">
+                                                        <div id="hs_cos_wrapper_widget_1689027619430"
+                                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
+                                                            data-hs-cos-general-type="widget"
+                                                            data-hs-cos-type="module">
+                                                            <span id="hs_cos_wrapper_widget_1689027619430_"
+                                                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
+                                                                data-hs-cos-general-type="widget"
+                                                                data-hs-cos-type="rich_text">
+                                                                <p style="line-height: 1;"><span style="color: #ffffff; font-size: 19px; line-height: 0.9;">Experience Xiphos'
+                                                                        revolution in space-qualified computing and
+                                                                        processor-based subsystems, enhanced by
+                                                                        Epiq's
+                                                                        SDR and RF expertise for next-level
+                                                                        solutions in
+                                                                        space (and beyond.)</span></p>
+                                                            </span>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row-fluid-wrapper row-depth-1 row-number-44 dnd-row">
+                                                <div class="row-fluid ">
+                                                    <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                                        data-widget-type="custom_widget" data-x="0" data-w="12">
+                                                        <div id="hs_cos_wrapper_widget_1689027727680"
+                                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
+                                                            data-hs-cos-general-type="widget"
+                                                            data-hs-cos-type="module">
+                                                            <div id="widget_1689027727680"
+                                                                class="custom-button add_accent mt-4"
+                                                                style="--left: 20px;">
+
+
+                                                                <div
+                                                                    class="btn-anim wmybtn button button--secondary mt-4">
+                                                                    EXPLORE MORE
+                                                                    <div class="dot white-dot"></div>
+                                                                </div>
+                                                                <!-- <a href="?hsLang=en"
+                                                                    class="wmybtn button button--secondary">
+                                                                    EXPLORE EPIQ
+                                                                </a> -->
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- third effect end -->
+
+                <!-- four effect start -->
+                <div id="textContainer3" class="four-section">
+                    <div class="four mb-5 slider">
+                        <div class="four-head">
+                            <h1>XIPHOS NEWS</h1>
+                        </div>
+                        <div class="mr-6" style="overflow: hidden;">
+                            <div class="forowlcontent c-slider d-flex" id="carousel">
+
+                                <div class="four-owl c-slide c-slide--salad">
+                                    <div class="blog-post__inner">
+                                        <div class="blog-post__content">
+                                            <div class="blog-post__header mb-4 d-flex justify-content-between"
+                                                style="font-size: 20px;">
+                                                <span>Feb 22, 2023</span>
+                                                <span>4 min read</span>
+                                            </div>
+                                            <div class="blog-post__title">
+                                                <h3>Powerhouses of Spacecraft: An In-Depth Look at Processors in
+                                                    Space
+                                                    Technology
+                                                </h3>
+                                                <div class="blog-post__content-content">
+                                                    <p>Lorem ipsum dolor sit amet, consectetrur adipicing elit, set
+                                                        do
+                                                        eiusmod tempor incididunt ut labore ed dolore manga ...
+                                                    </p>
+                                                </div>
+                                                <div class="blog-post__tags">
+                                                    CATEGORY
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="four-owl c-slide c-slide--salad">
+                                    <div class="blog-post__inner">
+                                        <div class="blog-post__content">
+                                            <div class="blog-post__header mb-4 d-flex justify-content-between"
+                                                style="font-size: 20px;">
+                                                <span>Feb 22, 2023</span>
+                                                <span>4 min read</span>
+                                            </div>
+                                            <div class="blog-post__title">
+                                                <h3>Powerhouses of Spacecraft: An In-Depth Look at Processors in
+                                                    Space
+                                                    Technology
+                                                </h3>
+                                                <div class="blog-post__content-content">
+                                                    <p>Lorem ipsum dolor sit amet, consectetrur adipicing elit, set
+                                                        do
+                                                        eiusmod tempor incididunt ut labore ed dolore manga ...
+                                                    </p>
+                                                </div>
+                                                <div class="blog-post__tags">
+                                                    CATEGORY
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="four-owl c-slide c-slide--salad">
+                                    <div class="blog-post__inner">
+                                        <div class="blog-post__content">
+                                            <div class="blog-post__header mb-4 d-flex justify-content-between"
+                                                style="font-size: 20px;">
+                                                <span>Feb 22, 2023</span>
+                                                <span>4 min read</span>
+                                            </div>
+                                            <div class="blog-post__title">
+                                                <h3>Powerhouses of Spacecraft: An In-Depth Look at Processors in
+                                                    Space
+                                                    Technology
+                                                </h3>
+                                                <div class="blog-post__content-content">
+                                                    <p>Lorem ipsum dolor sit amet, consectetrur adipicing elit, set
+                                                        do
+                                                        eiusmod tempor incididunt ut labore ed dolore manga ...
+                                                    </p>
+                                                </div>
+                                                <div class="blog-post__tags">
+                                                    CATEGORY
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="expbtnparent">
+                            <div class="btn-anim mx-auto mybtn mt-5 expbtn">
+                                EXPLORE MORE
+                                <div class="dot"></div>
+                            </div>
+                            <!-- <button class="mybtn mt-5 expbtn" id="myButton">EXPLORE MORE</button> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- four effect end -->
+
+                <!-- five effect start -->
+                <div id="textContainer4" class="five-section">
+                    <div class="five d-flex" style="margin-top: 140px; margin-bottom: 120px;">
+                        <div class="col-md-6 five-left">
+                            <h2 style="text-align: left; line-height: 1; font-size: 70px;"><span
+                                    style="color: #ffffff;">DEDICATED <br> TO QUALITY</span></h2>
+                        </div>
+                        <div class="col-md-6 five-right">
+                            <span id="hs_cos_wrapper_widget_1688397134046_"
+                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
+                                data-hs-cos-general-type="widget" data-hs-cos-type="rich_text">
+                                <p style="font-size: 25px;"><span style="color: #ffffff;">Our products and services
+                                        are
+                                        maintained to the highest standards of quality through ISO 9001:2015 and
+                                        AS9100:2016.</span></p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- five effect end -->
+            </div>
+            <!-- footer effect start -->
+            <div class="footer footer-row-1-max-width-section-centering">
+                <div class="content-wrapper mx-auto">
+                    <div class="row-fluid ">
+                        <div class="span5 widget-span widget-type-cell cell-vertical-alignment dnd-column cell-padding"
+                            data-widget-type="cell" data-x="0" data-w="5">
+
+                            <div class="row-fluid-wrapper row-depth-1 row-number-2 dnd-row">
+                                <div class="row-fluid ">
+                                    <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                        data-widget-type="custom_widget" data-x="0" data-w="12">
+                                        <div id="hs_cos_wrapper_widget"
+                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
+                                            data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                                            <span id="hs_cos_wrapper_widget_"
+                                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
+                                                data-hs-cos-general-type="widget" data-hs-cos-type="rich_text">
+                                                <h3 style="font-size: 36px;">STAY IN THE LOOP</h3>
+                                                <p>Keep up with the latest and greatest Xiphos news, product
+                                                    releases and innovations.
+                                                </p>
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row-fluid-wrapper row-depth-1 row-number-3 dnd-row mt-4">
+                                <div class="row-fluid ">
+                                    <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                        data-widget-type="custom_widget" data-x="0" data-w="12">
+                                        <div id="hs_cos_wrapper_widget"
+                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-form"
+                                            data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                                            <span id="hs_cos_wrapper_widget_"
+                                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_form"
+                                                data-hs-cos-general-type="widget" data-hs-cos-type="form">
+                                                <div id="hs_form_target_widget" data-hs-forms-root="true">
+                                                    <form id="hsForm" method="POST" accept-charset="UTF-8"
+                                                        enctype="multipart/form-data" novalidate="" class=""
+                                                        target="target_iframe" data-portal-id="7462378">
+                                                        <div
+                                                            class="hs_email hs-email hs-fieldtype-text field hs-form-field">
+                                                            <legend class="hs-field-desc" style="display: none;">
+                                                            </legend>
+                                                            <div class="input"><input id="email" name="email"
+                                                                    required="" placeholder="Sign me up" type="email"
+                                                                    class="hs-input w-100 signupemail" inputmode="email"
+                                                                    style="font-size: 16px;" autocomplete="email"
+                                                                    value=""></div>
+
+                                                        </div>
+                                                        <div class="hs_blog_epiq_solutions_blog_subscription hs-blog_epiq_solutions_blog_subscription hs-fieldtype-radio field hs-form-field"
+                                                            style="display: none;"><label
+                                                                id="label-blog_epiq_solutions_blog_subscription-6d1d4e31-d73d-415c-baad-be1d9bc28ec7_9936"
+                                                                class="" placeholder="Enter your Notification Frequency"
+                                                                for="blog_epiq_solutions_blog_subscription-6d1d4e31-d73d-415c-baad-be1d9bc28ec7_9936"><span>Notification
+                                                                    Frequency</span></label>
+                                                            <legend class="hs-field-desc" style="display: none;">
+                                                            </legend>
+                                                            <div class="input"><input
+                                                                    name="blog_epiq_solutions_blog_subscription"
+                                                                    class="hs-input" type="hidden" value=""></div>
+                                                        </div>
+                                                        <div class="hs_submit hs-submit">
+                                                            <div class="hs-field-desc" style="display: none;"></div>
+
+                                                        </div>
+
+                                                        <div class="hs_blog_epiq_solutions_blog hs-blog_epiq_solutions_blog hs-fieldtype-radio field hs-form-field"
+                                                            style="display: none;"><label
+                                                                id="label-blog_epiq_solutions_blog" class=""
+                                                                placeholder="Enter your Notification Frequency"
+                                                                for="blog_epiq_solutions_blog"><span>Notification
+                                                                    Frequency</span></label>
+                                                            <legend class="hs-field-desc" style="display: none;">
+                                                            </legend>
+                                                            <div class="input"><input name="blog_epiq_solutions_blog"
+                                                                    class="hs-input" type="hidden" value=""></div>
+                                                        </div>
+
+                                                    </form>
+                                                </div>
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span2 widget-span widget-type-cell cell-vertical-alignment dnd-column"
+                            data-widget-type="cell" data-x="5" data-w="2" style="width: 25%;">
+
+                            <div class="row-fluid-wrapper row-depth-1 row-number-4 dnd-row">
+                                <div class="row-fluid ">
+                                    <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                        data-widget-type="custom_widget" data-x="0" data-w="12">
+                                        <div id="hs_cos_wrapper_widget"
+                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-space"
+                                            data-hs-cos-general-type="widget" data-hs-cos-type="module"><span
+                                                class="hs-horizontal-spacer"></span></div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="mt-5  widget-span widget-type-cell footer-column-1-padding footer-column-1-vertical-alignment dnd-column"
+                            data-widget-type="cell" data-x="7" data-w="5">
+                            <div
+                                class="row-fluid-wrapper row-depth-1 row-number-5 footer-column-1-row-0-margin dnd-row">
+                                <div class="row-fluid ">
+                                    <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                        data-widget-type="custom_widget" data-x="0" data-w="12">
+                                        <div id="hs_cos_wrapper_module"
+                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
+                                            data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                                            <span id="hs_cos_wrapper_module_"
+                                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
+                                                data-hs-cos-general-type="widget" data-hs-cos-type="rich_text">
+                                                <h3 style="font-size: 36px;">CONTACT</h3>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row-fluid-wrapper row-depth-1 row-number-6 dnd-row">
+                                <div class="row-fluid ">
+                                    <div class="span3 widget-span widget-type-cell dnd-column cell-padding p-0"
+                                        data-widget-type="cell" data-x="0" data-w="3">
+                                        <div class="row-fluid-wrapper row-depth-1 row-number-7 dnd-row">
+                                            <div class="row-fluid ">
+                                                <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                                    data-widget-type="custom_widget" data-x="0" data-w="12">
+                                                    <div id="hs_cos_wrapper_module"
+                                                        class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
+                                                        data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                                                        <span id="hs_cos_wrapper_module_"
+                                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
+                                                            data-hs-cos-general-type="widget"
+                                                            data-hs-cos-type="rich_text">
+                                                            <p style="font-size: 18px;">Email:<br>Address:&nbsp;</p>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="span9 widget-span widget-type-cell cell-padding dnd-column"
+                                        data-widget-type="cell" data-x="3" data-w="9">
+                                        <div class="row-fluid-wrapper row-depth-1 row-number-8 dnd-row">
+                                            <div class="row-fluid ">
+                                                <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                                    data-widget-type="custom_widget" data-x="0" data-w="12">
+                                                    <div id="hs_cos_wrapper_module"
+                                                        class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
+                                                        data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                                                        <span id="hs_cos_wrapper_module_"
+                                                            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
+                                                            data-hs-cos-general-type="widget"
+                                                            data-hs-cos-type="rich_text">
+                                                            <p style="font-size: 18px;">info@xiphos.com<br>3981
+                                                                St-Laurent Boulevard, Suite
+                                                                500, Montreal, Quebec, H2W 1Y5, Canada</p>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div
+                        class="row-fluid-wrapper row-depth-1 row-number-9 footer-row-1-max-width-section-centering dnd-section footer-row-1-padding footer-row-1-vertical-alignment mt-5">
+                        <div class="row-fluid ">
+                            <div class="span4 widget-span widget-type-cell cell_16882334288152-vertical-alignment dnd-column cell_16882334288152-padding"
+                                data-widget-type="cell" data-x="0" data-w="4">
+
+                                <div class="row-fluid-wrapper row-depth-1 row-number-10 dnd-row">
+                                    <div class="row-fluid ">
+                                        <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                            data-widget-type="custom_widget" data-x="0" data-w="12">
+                                            <div id="hs_cos_wrapper_widget_1688233363416"
+                                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
+                                                data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                                                <nav class="menu menu--desktop" aria-label="Main menu">
+                                                    <ul class="menu__wrapper no-list">
+                                                        <li
+                                                            class="menu__item menu__item--depth-1  hs-skip-lang-url-rewrite">
+                                                            <span class="menu__link">COMPANY</span>
+                                                        </li>
+                                                        <li
+                                                            class="menu__item menu__item--depth-1  hs-skip-lang-url-rewrite">
+                                                            <span class="menu__link">CONTACT</span>
+                                                        </li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="span5 widget-span widget-type-cell cell_1688233333342-vertical-alignment dnd-column"
+                                data-widget-type="cell" data-x="4" data-w="5">
+                                <div class="row-fluid-wrapper row-depth-1 row-number-11 dnd-row">
+                                    <div class="row-fluid ">
+                                        <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                            data-widget-type="custom_widget" data-x="0" data-w="12">
+                                            <div id="hs_cos_wrapper_footer-module-3"
+                                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text"
+                                                data-hs-cos-general-type="widget" data-hs-cos-type="module"><span
+                                                    id="hs_cos_wrapper_footer-module-3_"
+                                                    class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
+                                                    data-hs-cos-general-type="widget" data-hs-cos-type="rich_text">
+                                                    <div style="text-align: center; font-size: 0.7rem;">
+                                                        <span>Copyright © 2023 Xiphos Systems Corporation©</span>
+                                                    </div>
+                                                </span></div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="footer span3 widget-span widget-type-cell cell-vertical-alignment cell-padding dnd-column"
+                                data-widget-type="cell" data-x="9" data-w="3">
+
+                                <div class="row-fluid-wrapper row-depth-1 row-number-12 dnd-row"
+                                    style="background-color: white;width: 40px;height: 40px; border-radius: 5px;">
+                                    <div class="row-fluid ">
+                                        <div class="span12 widget-span widget-type-custom_widget dnd-module"
+                                            data-widget-type="custom_widget" data-x="0" data-w="12">
+                                            <div id="hs_cos_wrapper_footer-module-2"
+                                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module"
+                                                data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                                                <div class="social-links mt-1">
+                                                    <a class="social-links__link" href="https://www.linkedin.com"
+                                                        target="_blank" rel="noopener">
+                                                        <span id="hs_cos_wrapper_footer-module-2_"
+                                                            class="hs_cos_wrapper hs_cos_wrapper_type_icon hs_cos_wrapper_widget social-links__icon"
+                                                            style="" data-hs-cos-general-type="widget"
+                                                            data-hs-cos-type="icon"><svg version="1.0" viewBox="0 0 448 512"
+                                                                aria-labelledby="linkedin-in1" role="img">
+                                                                <title id="linkedin-in1">Follow us on LinkedIn</title>
+                                                                <g id="linkedin-in1_layer">
+                                                                    <path
+                                                                        d="M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z">
+                                                                    </path>
+                                                                </g>
+                                                            </svg></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer effect end -->
+        </div>
+    </div>
+
+    <script src='./plugins/gsap/gsap.min.js'></script>
+    <script src="./plugins/gsap/Draggable.min.js"></script>
+    <script src='./plugins/gsap/ScrollTrigger.min.js'></script>
+    <script src="./js/customize.js"></script>
+    <script src="./js/dragging.js"></script>
+    <style>
+        .image {
+            width: 260px;
+            height: 320px;
+            border: 1px solid black;
+            position: absolute;
+            transform-origin: center center;
+        }
+    </style>
+</body>
+
+</html>
